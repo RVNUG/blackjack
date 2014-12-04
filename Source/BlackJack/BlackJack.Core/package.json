@@ -1,0 +1,14 @@
+{
+  "name": "BlackJack",
+  "version": "0.1.0",
+  "description": "BlackJackKata",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-jsdoc": "^0.5.7",
+    "temporary": "0.0.7",
+    "time-grunt": "~0.3.1"
+  },
+  "scripts": {
+    "doc": "grunt doc"
+  }
+}

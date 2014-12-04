@@ -1,0 +1,86 @@
+﻿html {
+    height: calc(100% - 30px);
+}
+
+body {
+    height: 100%;
+}
+
+.blackjack.container {
+    height: calc(100% - 52px);
+}
+
+.blackjack.container > .row {
+    height: 100%;
+}
+
+.blackjack.container > .row > .span12 {
+    height: 100%;
+}
+
+.blackjack.container > .row > .span12 > .content {
+    height: 100%;
+}
+
+.bot {
+    height: 100%;
+}
+
+.editor-container {
+    height: calc(100% - 39px);
+    width: 100%;
+}
+
+.editor-container.results-showing {
+    width: calc(100% - 300px);
+}
+
+.editor-actions {
+    width: 100%;
+}
+
+.editor-actions.results-showing {
+    width: calc(100% - 300px);
+}
+
+.theme-picker {
+    width: calc(100% - 180px);
+}
+
+.theme-picker.results-showing {
+    width: calc(100% - 180px - 300px);
+}
+
+.theme-picker > .control-label {
+    height: 34px;
+    padding-top: 10px;
+    width: 60px;
+    vertical-align: text-bottom;
+}
+
+.theme-picker > .form-control {
+    width: 200px;
+}
+
+.editor-buttons {
+    width: 180px;
+}
+
+.editor-container > #editor { 
+    height: 100%;
+    width: 100%;
+}
+
+.upload-results {
+    height: calc(100% - 39px);
+    width: 0;
+}
+
+.upload-results.results-showing {
+    width: 300px;
+}
+
+.upload-results > ul {
+    height: calc(100% - 56px);
+    overflow-y: auto;
+}

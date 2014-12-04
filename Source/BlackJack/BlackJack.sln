@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{A9B48567-7412-4EE6-8B57-391D0AD2E85D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{7965CA2A-A778-43FF-98E2-7A502B6F69A5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\BlackJack-RVNUG-WAWS-dev.json = PublishScripts\Configurations\BlackJack-RVNUG-WAWS-dev.json
+		PublishScripts\Configurations\BlackJack-WAWS-dev.json = PublishScripts\Configurations\BlackJack-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Tests", "BlackJack.Tests\BlackJack.Tests.csproj", "{B4179BCE-3B73-4FB2-AFB3-C9ADFD0ECD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Core", "BlackJack.Core\BlackJack.Core.csproj", "{B682282F-15A6-4180-94DE-D58CA9FE6B1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6A6138C-BD7E-43DD-A1BE-6D0FA9BB8A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack-RVNUG", "BlackJack-RVNUG\BlackJack-RVNUG.csproj", "{2DCFF5ED-34D1-468C-A06B-D801D38E579B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zeelux.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BlackJack.Tests\\BlackJack.Tests.csproj
+		SccProjectName1 = BlackJack.Tests
+		SccLocalPath1 = BlackJack.Tests
+		SccProjectUniqueName2 = BlackJack.Core\\BlackJack.Core.csproj
+		SccProjectName2 = BlackJack.Core
+		SccLocalPath2 = BlackJack.Core
+		SccProjectUniqueName3 = BlackJack-RVNUG\\BlackJack-RVNUG.csproj
+		SccProjectName3 = BlackJack-RVNUG
+		SccLocalPath3 = BlackJack-RVNUG
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4179BCE-3B73-4FB2-AFB3-C9ADFD0ECD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4179BCE-3B73-4FB2-AFB3-C9ADFD0ECD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4179BCE-3B73-4FB2-AFB3-C9ADFD0ECD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4179BCE-3B73-4FB2-AFB3-C9ADFD0ECD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B682282F-15A6-4180-94DE-D58CA9FE6B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B682282F-15A6-4180-94DE-D58CA9FE6B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B682282F-15A6-4180-94DE-D58CA9FE6B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B682282F-15A6-4180-94DE-D58CA9FE6B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCFF5ED-34D1-468C-A06B-D801D38E579B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCFF5ED-34D1-468C-A06B-D801D38E579B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCFF5ED-34D1-468C-A06B-D801D38E579B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCFF5ED-34D1-468C-A06B-D801D38E579B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7965CA2A-A778-43FF-98E2-7A502B6F69A5} = {A9B48567-7412-4EE6-8B57-391D0AD2E85D}
+	EndGlobalSection
+EndGlobal
